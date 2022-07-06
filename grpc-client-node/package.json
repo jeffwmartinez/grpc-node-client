@@ -1,0 +1,9 @@
+{
+  "name": "grpc-client-node",
+  "version": "0.0.0",
+  "description": "grpc-client-node",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  }
+}
