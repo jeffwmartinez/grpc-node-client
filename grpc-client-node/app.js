@@ -23,9 +23,11 @@ function main() {
         target = argv.target;
     } else {
         target = 'localhost:8383';
+        //target = 'grpc-express-app.azurewebsites.net';
     }
     var client = new hello_proto.Greeter(target,
         grpc.credentials.createInsecure());
+        //grpc.credentials.createFromSecureContext());
     var user;
     if (argv._.length > 0) {
         user = argv._[0];
